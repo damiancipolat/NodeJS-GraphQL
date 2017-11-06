@@ -21,8 +21,8 @@ The GraphiQL browser IDE can be accessed at http://localhost:3000/graphql.
 
 Ejemplos:
 
-Consulta:
-```json
+### Consulta:
+```js
 
 query {
   users {
@@ -33,8 +33,8 @@ query {
 
 ```
 
-Modificación:
-```json
+### Modificación:
+```js
 
 mutation {
    createUser(input: {
@@ -45,4 +45,4 @@ mutation {
   }
 }
 
-``
+```
