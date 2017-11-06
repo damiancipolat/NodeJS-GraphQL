@@ -1,6 +1,8 @@
 # express-graphql-demo
 GraphQL setup in Express JS
 
+> Este repositorio fue clonado y subido para ser usado como base del repo: https://github.com/a7v8x/express-graphql-demo
+
 Run development enviroment using yarn
 
 ```
