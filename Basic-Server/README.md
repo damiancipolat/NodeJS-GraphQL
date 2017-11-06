@@ -19,3 +19,30 @@ npm run dev
 
 The GraphiQL browser IDE can be accessed at http://localhost:3000/graphql.
 
+Ejemplos:
+
+Consulta:
+```json
+
+query {
+  users {
+    id
+    email
+  }
+}
+
+```
+
+Modificación:
+```json
+
+mutation {
+   createUser(input: {
+    email: "graphql@test.com"
+   }) {
+    id,
+    email
+  }
+}
+
+``
