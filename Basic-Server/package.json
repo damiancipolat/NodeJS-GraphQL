@@ -4,9 +4,7 @@
   "description": "graphql express demo for testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -w server/ --exec 'NODE_ENV=development node server/'",
-    "start": "NODE_ENV=production node server/"
+    "start": "NODE_ENV=development node server/"
   },
   "keywords": [
     "graphql",
